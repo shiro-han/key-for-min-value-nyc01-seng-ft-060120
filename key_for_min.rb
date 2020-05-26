@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
   min_val = 9999999999999999999999999999999999999999999
   output = "nil"
-  
+
   name_hash.each do |key, value|
     if value < min_val
       value = min_val
